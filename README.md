@@ -1,4 +1,4 @@
-# Maximum-Likelihood-Estimation
+# Maximum Likelihood Estimation
 
 Python script implementing an MLE machine learning algorithm for binary input/output data built upon the foundation of a log likelihood estimation and Naive Bayes
 
