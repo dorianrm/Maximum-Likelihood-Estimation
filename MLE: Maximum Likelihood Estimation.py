@@ -31,14 +31,14 @@ def trainFunction():
 			else:
 				y1 += 1
 			for col in row:
-				if counter != (ycol): 					 #counter = x_i/col
+				if counter != (ycol): 				#counter = x_i/col
 					key.extend((counter,col,row[ycol]))  #create key
 					key = tuple(key)
-					if key in map:           			 #1: key in map -> add 1 to counter
+					if key in map:           		 #1: key in map -> add 1 to counter
 						count = map[key]
 						count += 1 
 						map[key] = count
-					else:								 #2: add key to map, counter=1
+					else:					#2: add key to map, counter=1
 						map[key] = 1
 					key = []
 					counter += 1
